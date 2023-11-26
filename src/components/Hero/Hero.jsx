@@ -5,19 +5,29 @@ import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="home">
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Ada</h1>
-        <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+        <h1 className={styles.title} id="user-detail-name">
+          Hi, I'm Arnab
+        </h1>
+        <p className={styles.description} id="user-detail-intro">
+          Enthusiastic Full Stack Developer. Fresh graduate with expertise in
+          React, JS and a passion for innovation.
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <a href="mailto:rockarnab367@email.com" className={styles.contactBtn}>
           Contact Me
+        </a>
+        <a
+          href="../../../assets/resume/dummyresume.pdf"
+          download
+          className={styles.contactBtn}
+          style={{ marginTop: "10px" }}
+        >
+          Resume
         </a>
       </div>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/ResumeHeroPhoto.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />
