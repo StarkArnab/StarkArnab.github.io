@@ -1,13 +1,17 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  left: 0; /* Align the navbar to the left edge of the page */
+  width: 100%; /* Full width */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding: 30px;
   z-index: 2;
-  margin: 0 10%;
+  margin: 0; /* Remove the margin */
+  background-color: var(--color-bg);
 }
 
 .title {
@@ -33,10 +37,17 @@
   text-decoration: none;
 }
 
+.menuBtn {
+  display: none;
+}
+
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--color-bg);
   }
 
   .menu {

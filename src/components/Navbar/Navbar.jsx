@@ -52,9 +52,13 @@ export const Navbar = () => {
           </li>
           <li>
             <a
+              onClick={() => {
+                window.open("../../../assets/resume/dummyresume.pdf", "_blank");
+              }}
               href="../../../assets/resume/dummyresume.pdf"
               download
               className="nav-link resume"
+              id="resume-button-1"
             >
               Resume
             </a>

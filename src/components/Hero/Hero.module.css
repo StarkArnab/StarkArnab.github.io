@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .container {
+  padding-top: 100px;
   position: relative;
   display: flex;
   align-items: center;

@@ -18,14 +18,20 @@ export const Hero = () => {
           Contact Me
         </a>
         <a
+          onClick={() => {
+            window.open("../../../assets/resume/dummyresume.pdf", "_blank");
+          }}
           href="../../../assets/resume/dummyresume.pdf"
           download
+          target="_blank"
           className={styles.contactBtn}
           style={{ marginTop: "10px" }}
+          id="resume-button-2"
         >
           Resume
         </a>
       </div>
+      <div className="home-img" src="true"></div>
       <img
         src={getImageUrl("hero/ResumeHeroPhoto.png")}
         alt="Hero image of me"

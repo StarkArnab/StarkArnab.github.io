@@ -23,7 +23,7 @@
 }
 
 .skills {
-  width: 45%;
+  width: 80%; /* Change this to fit the skills inside the div */
   display: flex;
   flex-wrap: wrap;
   gap: 37px;
