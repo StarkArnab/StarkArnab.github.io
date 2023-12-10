@@ -30,5 +30,13 @@
   {
     "title": "VS Code",
     "imageSrc": "skills/vscode.png"
+  },
+  {
+    "title": "Netlify",
+    "imageSrc": "skills/netlify.png"
+  },
+  {
+    "title": "Vercel",
+    "imageSrc": "skills/vercel.png"
   }
 ]

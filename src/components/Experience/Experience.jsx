@@ -5,6 +5,22 @@ import skills from "../../data/skills.json";
 import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
+  const selectLastHalfYear = (contributions) => {
+    const currentYear = new Date().getFullYear();
+    const currentMonth = new Date().getMonth();
+    const shownMonths = 6;
+
+    return contributions.filter((activity) => {
+      const date = new Date(activity.date);
+      const monthOfDay = date.getMonth();
+
+      return (
+        date.getFullYear() === currentYear &&
+        monthOfDay > currentMonth - shownMonths &&
+        monthOfDay <= currentMonth
+      );
+    });
+  };
   return (
     <section className={styles.container} id="skills">
       <h2 className={styles.title}>Experience</h2>
@@ -69,6 +85,7 @@ export const Experience = () => {
         >
           <GithubCalendar
             username="StarkArnab"
+            transformData={selectLastHalfYear}
             style={{
               marginTop: "50px",
               alignItems: "center",
