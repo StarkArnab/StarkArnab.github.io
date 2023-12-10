@@ -24,7 +24,7 @@
   font-size: 72px;
   font-weight: 900;
   margin-bottom: 33px;
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 70%,
@@ -36,7 +36,7 @@
 
 .description {
   font-size: 30px;
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
   margin-bottom: 52px;
 }
 
@@ -52,6 +52,7 @@
 }
 
 .heroImg {
+  /* padding-bottom: 100px; */
   width: 50%;
   z-index: 1;
 
@@ -108,5 +109,9 @@
 
   .content {
     align-items: center;
+  }
+
+  .heroImg {
+    padding-bottom: 100px;
   }
 }
