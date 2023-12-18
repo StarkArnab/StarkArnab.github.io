@@ -53,10 +53,13 @@ export const Navbar = () => {
           <li>
             <a
               onClick={() => {
-                window.open("../../../assets/resume/dummyresume.pdf", "_blank");
+                const url =
+                  "https://drive.google.com/file/d/1Eq3LIqXrfxASiKoeYwGYIc0UV-RhE0pc/view?usp=sharing";
+                const download =
+                  "https://drive.google.com/uc?export=download&id=1Eq3LIqXrfxASiKoeYwGYIc0UV-RhE0pc";
+                window.open(url);
+                window.location.href = download;
               }}
-              href="../../../assets/resume/dummyresume.pdf"
-              download
               className="nav-link resume"
               id="resume-button-1"
             >

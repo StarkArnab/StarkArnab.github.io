@@ -8,27 +8,19 @@
     "source": "https://github.com/StarkArnab/bewakoof-clone"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/Bewakoof.png",
-    "description": "Bewakoof.com, an Indian e-commerce platform, offers trendy, quirky fashion and accessories for youthful, unique style seekers.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Auto Parts Repair",
+    "imageSrc": "projects/AutoParts.png",
+    "description": "Auto Parts Repair, a global e-commerce platform, offers stylish, unique automobile parts and accessories for modern, vehicle enthusiasts.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://650992846403785c0ba39b65--luxury-faun-db5a1e.netlify.app/",
+    "source": "https://github.com/StarkArnab/glorious-calendar-2511?tab=readme-ov-file"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/Bewakoof.png",
-    "description": "Bewakoof.com, an Indian e-commerce platform, offers trendy, quirky fashion and accessories for youthful, unique style seekers.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project D",
-    "imageSrc": "projects/Bewakoof.png",
-    "description": "Bewakoof.com, an Indian e-commerce platform, offers trendy, quirky fashion and accessories for youthful, unique style seekers.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Portfolio",
+    "imageSrc": "projects/Portfolio.png",
+    "description": "This project is a creative endeavor that utilizes graphic design to depict various aspects of my personality, interests, experiences, and aspirations.",
+    "skills": ["React", "CSS"],
+    "demo": "https://starkarnab.github.io/",
+    "source": "https://github.com/StarkArnab/StarkArnab.github.io"
   }
 ]

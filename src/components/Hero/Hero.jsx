@@ -14,15 +14,21 @@ export const Hero = () => {
           Enthusiastic Full Stack Developer. Fresh graduate with expertise in
           React, JS and a passion for innovation.
         </p>
-        <a href="mailto:rockarnab367@email.com" className={styles.contactBtn}>
+        <a
+          href="mailto:arnabofficial123@gmail.com"
+          className={styles.contactBtn}
+        >
           Contact Me
         </a>
         <a
           onClick={() => {
-            window.open("../../../assets/resume/dummyresume.pdf", "_blank");
+            const url =
+              "https://drive.google.com/file/d/1Eq3LIqXrfxASiKoeYwGYIc0UV-RhE0pc/view?usp=sharing";
+            const download =
+              "https://drive.google.com/uc?export=download&id=1Eq3LIqXrfxASiKoeYwGYIc0UV-RhE0pc";
+            window.open(url);
+            window.location.href = download;
           }}
-          href="../../../assets/resume/dummyresume.pdf"
-          download
           target="_blank"
           className={styles.contactBtn}
           style={{ marginTop: "10px" }}
