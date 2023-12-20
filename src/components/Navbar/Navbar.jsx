@@ -54,9 +54,9 @@ export const Navbar = () => {
             <a
               onClick={() => {
                 const url =
-                  "https://drive.google.com/file/d/1Eq3LIqXrfxASiKoeYwGYIc0UV-RhE0pc/view?usp=sharing";
+                  "https://drive.google.com/file/d/1CmtmyQoh1DAzCQL8f7uOwTv5x-gSpk3T/view?usp=sharing";
                 const download =
-                  "https://drive.google.com/uc?export=download&id=1Eq3LIqXrfxASiKoeYwGYIc0UV-RhE0pc";
+                  "https://drive.google.com/uc?export=download&id=1CmtmyQoh1DAzCQL8f7uOwTv5x-gSpk3T";
                 window.open(url);
                 window.location.href = download;
               }}
