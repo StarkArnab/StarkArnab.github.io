@@ -23,9 +23,9 @@ export const Hero = () => {
         <a
           onClick={() => {
             const url =
-              "https://drive.google.com/file/d/1CmtmyQoh1DAzCQL8f7uOwTv5x-gSpk3T/view?usp=sharing";
+              "https://drive.google.com/file/d/1PJoyibqMFDCPy_q0txUkfrzAfWXv82do/view?usp=sharing";
             const download =
-              "https://drive.google.com/uc?export=download&id=1CmtmyQoh1DAzCQL8f7uOwTv5x-gSpk3T";
+              "https://drive.google.com/uc?export=download&id=1PJoyibqMFDCPy_q0txUkfrzAfWXv82do";
             window.open(url);
             window.location.href = download;
           }}
