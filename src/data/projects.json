@@ -16,11 +16,11 @@
     "source": "https://github.com/StarkArnab/glorious-calendar-2511?tab=readme-ov-file"
   },
   {
-    "title": "Portfolio",
-    "imageSrc": "projects/Portfolio.png",
-    "description": "This project is a creative endeavor that utilizes graphic design to depict various aspects of my personality, interests, experiences, and aspirations.",
-    "skills": ["React", "CSS"],
-    "demo": "https://starkarnab.github.io/",
-    "source": "https://github.com/StarkArnab/StarkArnab.github.io"
+    "title": "Chat OP",
+    "imageSrc": "projects/Chat-OP.png",
+    "description": "This is a group chatting application where anyone with a valid gmail id can come and chat with the participants",
+    "skills": ["React", "Tailwind", "Firebase"],
+    "demo": "https://chat-op.vercel.app/",
+    "source": "https://github.com/StarkArnab/Chat-Application"
   }
 ]
