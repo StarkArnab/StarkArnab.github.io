@@ -45,5 +45,5 @@
   { "title": "NodeJS", "imageSrc": "skills/nodejs.png" },
   { "title": "Express", "imageSrc": "skills/express.png" },
   { "title": "MongoDB", "imageSrc": "skills/mongodb.png" },
-  { "title": "Mongoosh", "imageSrc": "skills/mongoosh.png" }
+  { "title": "Mongosh", "imageSrc": "skills/mongoosh.png" }
 ]
