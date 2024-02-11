@@ -22,5 +22,24 @@
     "skills": ["React", "Tailwind", "Firebase"],
     "demo": "https://chat-op.vercel.app/",
     "source": "https://github.com/StarkArnab/Chat-Application"
+  },
+  {
+    "title": "Chat App",
+    "imageSrc": "projects/Chat-App.png",
+    "description": "This is a chatting application where anyone can come and chat with other participants",
+    "skills": [
+      "React",
+      "Bootstrap",
+      "NodeJs",
+      "MongoDB",
+      "Mongoose",
+      "Express",
+      "Bcrypt",
+      "JsonWebToken",
+      "Validator",
+      "Socket.io"
+    ],
+    "demo": "https://musical-pie-9b8605.netlify.app/",
+    "source": "https://github.com/StarkArnab/chat-app"
   }
 ]
